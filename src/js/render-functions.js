@@ -50,9 +50,9 @@ export function hideLoader() {
   refs.loader.classList.add("hidden");
 }
 
-export function showLoadMore() {
+export function showLoadMoreButton() {
   refs.loadMoreBtn.classList.remove("is-hidden");
 }
-export function hideLoadMore() {
+export function hideLoadMoreButton() {
   refs.loadMoreBtn.classList.add("is-hidden");
 }
